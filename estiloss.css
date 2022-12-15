@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 760px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(imagenes/por.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 15px;
+}
+p{
+    font-size: 13px;
+}
+.contenedor{
+    background: linear-gradient(white, #7c8cb8);
+    width: 40%;
+    max-width: 1000px;
+    height: 90%;
+    margin: 1.6em auto;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 40% 60% ;
+    box-shadow: 7px 13px 37px white;
+    text-align: center;
+}
+.imgRedonda {
+    width: 100px;
+    height: 100px;
+    border-radius:150px;
+    border:1px solid black;
+}
+.encabezado{
+    display: grid;
+    grid-template-rows: 20% 35% 15% 20%;
+    padding: 5px;
+    margin-right: 1px solid black;
+}
+.cuerpo{
+    display: grid;
+    grid-template-rows: 10% 13% 35% 25% 25% ;
+    padding: 25px;
+}
+.seccion1,.seccion2,.seccion3,.seccion4,.seccion5,.seccion6,.seccion7,.seccion8{
+    padding: 1%;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 25px;
+}
+.seccion1:hover{
+    background-color: rgb(224, 223, 235);
+}
+.seccion4:hover{
+    background-color: rgb(222, 220, 248);
+}
+.seccion6:hover{
+    background-color: rgb(222, 220, 248);
+}
+.seccion7:hover{
+    background-color: rgb(222, 220, 248);
+}
+.seccion8:hover{
+    background-color: rgb(222, 220, 248);
+}
+#regre{
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#par{
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#regre:hover{
+    padding: 5px;
+    color: blue;
+    transform: scale(1.3);
+    font-weight: 500;
+    border-bottom: 1px solid blue;
+}
+#par:hover{
+    padding: 5px;
+    color: blue;
+    transform: scale(1.3);
+    font-weight: 500;
+    border-bottom: 1px solid blue;
+}
+.ul{
+    text-align:left;
+    padding: 5px;
+    margin: 1px solid black; 
+}
+#debe1{
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#debe2{
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.ul #debe1:hover{
+    padding: 5px;
+    color: blue;
+    transform: scale(1.3);
+    font-weight: 500;
+    border-bottom: 1px solid blue;
+}
+.ul #debe2:hover{
+    padding: 5px;
+    color: blue;
+    transform: scale(1.3);
+    font-weight: 500;
+    border-bottom: 1px solid blue;
+}
+.sit{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    transition: all .3s ease-in-out;
+    display: block;
+    align-items: center;
+    list-style: none;
+}
+.sit:hover{
+    
+    color: blue;
+    transform: scale(1.8);
+    font-weight: 500;
+    border-bottom: 1px solid blue;
+    
+}
+.seccion4:hover,.seccion6:hover,.seccion7:hover,.seccion8:hover,.seccion1:hover{
+    transform: scale(1.3);
+    font-weight: 500;   
+}
+.ima:hover{
+    transform: scale(1.6);
+    font-weight: 500; 
+}
