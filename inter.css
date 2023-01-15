@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(201, 180, 180), #7c8cb8);
+    text-align: center;
+}
+h3{
+    padding: 10px;
+}
+#regre{
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#regre:hover{
+    padding: 5px;
+    color: blue;
+    transform: scale(1.2);
+    font-weight: 500;
+    border-bottom: 1px solid blue;
+}
+.ima:hover{
+    transform: scale(1.6);
+    font-weight: 500; 
+}
